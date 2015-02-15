@@ -1,0 +1,38 @@
+{
+  "name": "recent",
+  "version": "1.0.0",
+  "description": "list most recent REPOS directories",
+  "main": "recent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sean9999/recent"
+  },
+  "keywords": [
+    "cli",
+    "help",
+    "recent",
+    "directory",
+    "directories",
+    "folder",
+    "folder"
+  ],
+  "author": "Sean Macdonald <sean@crazyhorsecoding.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean9999/recent/issues"
+  },
+  "homepage": "https://github.com/sean9999/recent",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.6.0",
+    "inquirer": "^0.8.0"
+  },
+  "devDependencies": {},
+  "preferGlobal": "true",
+  "bin": {
+    "recent" : "recent.js"
+  }
+}
